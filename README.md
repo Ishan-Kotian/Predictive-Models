@@ -5,8 +5,14 @@
 Breast-Cancer-Detection
 Data: [Link](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data)
 
+Overview
+This GitHub repository contains a predictive modeling analysis for breast cancer outcomes using machine learning algorithms such as Decision Tree, K-Nearest Neighbors (KNN), Logistic Regression, and Support Vector Machine (SVM). The analysis is based on the Wisconsin Breast Cancer dataset, which includes real-valued features representing mean, standard error, and "worst" values.
+
+Dataset
+The dataset used in this project is sourced from the UCI Machine Learning Repository and can be accessed here. It consists of feature vectors and binary labels, with the goal of predicting the diagnosis result (malignant or benign) based on ten real-valued features.
 Description: [Link](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.names)
 
+---
 Car-Evaluation-Classification
 
 Overview
