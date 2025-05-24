@@ -25,3 +25,11 @@ Dataset [Link](http://archive.ics.uci.edu/ml/datasets/Car+Evaluation)
 
 The dataset used in this project is obtained from the UCI Machine Learning Repository and includes seven attributes: buying price, maintenance price, number of doors, capacity in terms of persons, size of luggage boot, estimated safety, and the evaluation of the car (unacceptable, acceptable, good, very good). The attributes are preprocessed and transformed into a binary format, and the target variable is encoded into numerical values.
 
+
+---
+Predictive Modeling of Consumer Spending Using Multi-Model Regression
+
+Problem Statement:
+Built and compared multiple numeric prediction models—Linear Regression, k-NN, Regression Trees, SVM, Neural Networks, and Ensemble techniques—to forecast consumer spending in response to catalog mailings. Evaluated model performance on both the full dataset (including non-purchasers) and a restricted subset (only purchasers), analyzing the impact of purchase filtering on predictive accuracy. Applied best practices in hyperparameter tuning and normalization to identify the most accurate models.
+
+
