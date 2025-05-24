@@ -2,7 +2,7 @@
 
 # Predictive-Models
 
-Breast-Cancer-Detection
+1. Breast-Cancer-Detection
 
 Data: [Link](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data)
 
@@ -16,7 +16,7 @@ The dataset used in this project is sourced from the UCI Machine Learning Reposi
 
 
 ---
-Car-Evaluation-Classification
+2. Car-Evaluation-Classification
 
 Overview
 This GitHub repository contains the code and data for a machine learning project on car evaluation classification. This project aims to explore and compare different classification techniques, such as Decision Tree, K-Nearest Neighbors (KNN), Logistic Regression, Support Vector Machine (SVM), and Naive Bayes. The dataset used for this project includes 1728 records, each representing a car evaluation based on various attributes.
@@ -27,9 +27,17 @@ The dataset used in this project is obtained from the UCI Machine Learning Repos
 
 
 ---
-Predictive Modeling of Consumer Spending Using Multi-Model Regression
+3. Predictive Modeling of Consumer Spending Using Multi-Model Regression
 
 Problem Statement:
 Built and compared multiple numeric prediction models—Linear Regression, k-NN, Regression Trees, SVM, Neural Networks, and Ensemble techniques—to forecast consumer spending in response to catalog mailings. Evaluated model performance on both the full dataset (including non-purchasers) and a restricted subset (only purchasers), analyzing the impact of purchase filtering on predictive accuracy. Applied best practices in hyperparameter tuning and normalization to identify the most accurate models.
+
+---
+4. Cost-Sensitive Spam Email Detection Using Machine Learning
+
+Dataset [Link](https://archive.ics.uci.edu/dataset/94/spambase)
+
+Problem Statement:
+Developed and compared classification models to detect spam emails using the UCI Spambase dataset. Built one model optimized for overall predictive accuracy and a second cost-sensitive model to minimize misclassification costs with a 10:1 penalty ratio (false negatives vs. false positives). Applied and fine-tuned multiple techniques including k-NN, Decision Trees, Naive Bayes, SVM, and Ensemble methods. Evaluated models using nested cross-validation, confusion matrices, ROC curves, and lift charts, and identified the best-performing algorithms based on accuracy, F1-score, AUC, and average cost.
 
 
