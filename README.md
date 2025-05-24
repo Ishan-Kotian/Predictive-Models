@@ -41,3 +41,11 @@ Problem Statement:
 Developed and compared classification models to detect spam emails using the UCI Spambase dataset. Built one model optimized for overall predictive accuracy and a second cost-sensitive model to minimize misclassification costs with a 10:1 penalty ratio (false negatives vs. false positives). Applied and fine-tuned multiple techniques including k-NN, Decision Trees, Naive Bayes, SVM, and Ensemble methods. Evaluated models using nested cross-validation, confusion matrices, ROC curves, and lift charts, and identified the best-performing algorithms based on accuracy, F1-score, AUC, and average cost.
 
 
+---
+5. Evaluating Shallow vs. Deep Neural Networks for Function Approximation
+
+
+Problem Statement:
+
+Conducted a comparative analysis of neural networks with 1, 2, and 3 hidden layers to evaluate their performance in approximating a non-linear function $f(x) = 2(2\cos^2(x) - 1)^2 - 1$. Simulated 120,000 data points sampled uniformly from $[-2\pi, 2\pi]$, split evenly into training and test sets. Trained networks with varying hidden units and measured performance using mean squared error. The results, visualized across different network depths and parameter scales, revealed that deeper architectures achieved significantly lower errors with fewer units, highlighting their superior representational capacity for complex functions.
+
