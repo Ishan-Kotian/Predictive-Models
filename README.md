@@ -49,3 +49,5 @@ Problem Statement:
 
 Conducted a comparative analysis of neural networks with 1, 2, and 3 hidden layers to evaluate their performance in approximating a non-linear function $f(x) = 2(2\cos^2(x) - 1)^2 - 1$. Simulated 120,000 data points sampled uniformly from $[-2\pi, 2\pi]$, split evenly into training and test sets. Trained networks with varying hidden units and measured performance using mean squared error. The results, visualized across different network depths and parameter scales, revealed that deeper architectures achieved significantly lower errors with fewer units, highlighting their superior representational capacity for complex functions.
 
+![image](https://github.com/user-attachments/assets/3db37477-84e6-4a6a-9da6-2516a3d64cf5)
+
